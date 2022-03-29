@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  background:url(https://html5book.ru/wp-content/uploads/2015/10/background54.png);
+}
+.head {
+  text-align: center;
+  font-size: 50px;
+  margin-top: 50px;
+  margin-bottom: 70px;
+  font-weight: 700;
+  letter-spacing: 5px;
+}
+.head:hover {
+  cursor: pointer;
+}
+.body {
+  display: flex;
+}
+.body1 {
+  width: 70%;
+}
+.body11 {
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 30px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.body12 {
+  text-align: center;
+  font-size: 15px;
+  font-weight: 300;
+  margin-bottom: 50px;
+  color: darkgrey;
+}
+.imgclass {
+  display:block;
+  margin:auto;
+  width:  400px;
+  height: 400px;
+}
+.body2 {
+  width: 30%;
+  letter-spacing: 1px;
+  margin-right: 100px;
+  box-shadow: 0px 0px 10px #908c8c;
+  padding-top: 40px;
+  text-align: center;
+}
+.signclass {
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+.input1, .input2, .input3, .input4 {
+  width: 250px;
+  padding: 18px;
+  border-bottom: 1px solid darkgrey;
+  border-top: 0px;
+  border-right: 0px;
+  border-left: 0px;
+  margin-bottom: 18px;
+}
+.rememberclass {
+  font-size: 15px;
+  font-weight: 300;
+  color: darkslategrey;
+  letter-spacing: 0px;
+}
+.rememberclass a {
+  color: darkslategrey;
+  font-size: 12px;
+  margin-left: 80px;
+  text-decoration: none;
+  letter-spacing: 0px;
+}
+.footclass {
+  color: black;
+  font-size: 15px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.span-shadow {
+  text-align:center;
+  margin-bottom: 20px;
+}
+.span-shadow span {
+  display: inline-block;
+  margin: 15px;
+  padding: 20px 30px;
+  cursor: pointer;
+  width: 200px;
+  border-radius: 10px;
+  color: white;
+  transition: .2s linear;
+}
+.span-shadow span:nth-child(1) {background:#7ef06b}
+.span-shadow span:nth-child(1):hover {
+  box-shadow: 0 0 0 2px white, 0 0 0 4px #7ef06b;
+}
